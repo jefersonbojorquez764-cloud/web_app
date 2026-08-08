@@ -124,3 +124,24 @@ hr{
 .Country a:hover{
    text-decoration:underline;
 }
+
+.social{
+    margin:50px;
+}
+
+.social p{
+    text-align:center;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.links{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.links a{
+    font-size:30px;
+}
+
