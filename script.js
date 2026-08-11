@@ -1,6 +1,6 @@
 ScrollReveal().reveal('.container' );
-ScrollReveal().reveal('.main', { delay: 500, duration: 1000 });
-ScrollReveal().reveal('.Country', { delay: 500, duration: 1000 });
+ScrollReveal().reveal('.main', { delay: 500, duration: 500 });
+ScrollReveal().reveal('.Country', { delay: 500, duration: 500 });
 
 async function myFunction() {
     const response = await fetch(
