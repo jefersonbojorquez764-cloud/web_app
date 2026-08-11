@@ -143,5 +143,21 @@ hr{
 
 .links a{
     font-size:30px;
+
+ #enter-btn{
+    text-decoration:none;
+    padding: 1.2rem 3rem;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    transition: all 0.3s ease;
+    display:inline-block;
+  }
+
+  #enter-btn:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+  }
 }
 
