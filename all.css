@@ -19,11 +19,6 @@ body {
     min-height: 100vh;
 }
 
-
-/* =========================
-   NAVBAR
-========================= */
-
 .navbar {
 
     width: 94%;
@@ -135,8 +130,6 @@ body {
 }
 
 
-/* COUNTRY */
-
 #Places {
 
     color: #777;
@@ -147,9 +140,6 @@ body {
 
     margin-bottom: 10px;
 }
-
-
-/* ACTIVITY NAME */
 
 #Activity-Name {
 
@@ -179,11 +169,6 @@ body {
 
     margin-bottom: 30px;
 }
-
-
-/* =========================
-   BUTTONS
-========================= */
 
 .links {
 
