@@ -13,11 +13,45 @@ async function myFunction() {
         }
     );
 
-    const data = await response.json();
+  const data = await response.json();
 
-    console.log(data);
-    console.log(data.records);
+const record = data.records[0];
+const fields = record.fields;
 
-    console.log(data.records[0]);
-    console.log(data.records[0].fields["Name"]);
+ const country = fields["Places"];
+ const name = fields["Activity Name"];
+ const description = fields["Description"];
+ const more = fields["More activities"];
+ const order = fields["Order Recommendation"];
+ const transportation = fields["Best Transportation"];
+const best = fields["Best time to go"];
+ const worst = fields["Worst time to go"];
+const rules = fields["Rules"];
+
+ const picture = fields["Picture"];
+
+
+
+ const location = fields["Location Place"];
+ const hotels = fields["Closes Hotels"];
+const fly = fields["Best place to book a fly"];
+
+document.getElementById("Places").textContent = country;
+document.getElementById("Activity Name").textContent = name;
+ document.getElementById("Description").textContent = description;
+ document.getElementById("More activities").textContent = more;
+ document.getElementById("Order Recommendation").textContent = order;
+ document.getElementById("Best Transportation").textContent = transportation;
+ document.getElementById("Best time to go").textContent = best;
+ document.getElementById("Worst time to go").textContent = worst;
+ document.getElementById("Rules").textContent = rules;
+
+ if (picture && picture.length > 0) {
+document.getElementById("Picture").src = picture[0].url;
 }
+document.getElementById("Location Place").href = location;
+document.getElementById("Closes Hotels").href = hotels;
+ document.getElementById("Best place to book a fly").href = fly;
+}
+
+myFunction();
