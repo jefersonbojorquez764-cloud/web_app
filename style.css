@@ -59,7 +59,7 @@ ul{
 .main{
     width: 100%;
     height:550px;
-    background:url("https://www.educaciontrespuntocero.com/wp-content/uploads/2024/07/IA-para-planificar-viajes.jpg");
+    background:url("pictures/fondo.jpg");
     background-size: cover;
     background-position: center;
     padding-bottom: 50px;
@@ -76,7 +76,7 @@ ul{
    border: 0;
    font-weight: bold;
    padding:10px 20px;
-   background-color:#000000;
+   background-color:#0b0b0b;
    color:#fdfafa;
    font-size:15px;
    border:1px solid #ffffff;
@@ -93,7 +93,7 @@ main p{
 }
 
 .main p {
-    color:#d8c4c4;
+    color:#000000;
 }
 
 hr{

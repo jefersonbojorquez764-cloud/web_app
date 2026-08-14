@@ -92,7 +92,7 @@ transition: 0.3s;
 
 #Places {
 
-    color: #000000;
+    color: #f7f4f4;
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -128,8 +128,8 @@ transition: 0.3s;
 
     display: inline-block;
     padding: 15px 25px;
-    background-color: black;
-    color: rgb(255, 255, 255);
+    background-color: rgb(247, 242, 242);
+    color: rgb(108, 106, 106);
     text-decoration: none;
     border-radius: 12px;
     font-size: 18px;
@@ -157,7 +157,7 @@ transition: 0.3s;
 
 .section p {
 
-    color: #000000;
+    color: #f9f7f7;
     font-size: 18px;
     line-height: 1.6;
 }
